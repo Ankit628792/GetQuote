@@ -6,6 +6,7 @@ const quotes = document.getElementById("quotes");
         let quoteData = "";
 
         const tweetNow = () => {
+            alert("Make sure you have logged into Twitter Account.");
             tweet.href = `https://twitter.com/intent/tweet?text=${quotesData.text} ~ by ${quoteData.author}`;
         }
         // Function to generate random number  
